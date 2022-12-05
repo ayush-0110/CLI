@@ -1,0 +1,22 @@
+{
+  "name": "cli2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/shell.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli": "^1.0.1",
+    "shell": "^0.9.4",
+    "yargs": "^17.6.2"
+  },
+  "bin": {
+    "shell": "./bin/shell.js",
+    "pres": "./bin/pres.js",
+    "ls1": "./bin/ls1.js",
+    "chdr": "./bin/chdr.js"
+  }
+}
