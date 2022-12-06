@@ -8,9 +8,9 @@ const command = exec("sleep 100")
 const options = yargs
  .usage(`Usage: `)
  .usage(`   Myshell   `)
- .option("ls1", { alias: "ls1", describe: "ls1 works just like ls in bash shell",demandOption:true})
+ .option("ls1", { alias: "ls", describe: "ls1 works just like ls in bash shell",demandOption:true})
  .option("pres", { alias: "pwd", describe: "present working directory"})
- .option("chdr", { alias: "chdr", describe: "Changing the working directory"})
+ .option("chdr", { alias: "cd", describe: "Changing the working directory"})
  .option("exit", { alias: "close", describe: "exit(automatically exits after 100 seconds)" })
  .argv;
  
