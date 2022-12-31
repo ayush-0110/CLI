@@ -12,11 +12,11 @@ Run ```shell.js``` to get the instructions about using the shell
 
 Enter the name of the command you wish to execute. For eg: ls1.
 
-* Note: to change current working directory: also enter the location of new directory alongwith the command. for eg: pres ../ *
+* Note: to change current working directory: also enter the location of new directory alongwith the command. for eg: pres ../  *
 
 *** An important Note: Since I've used scripts so one can directly enter the commands name like ls1 rather than node ls1.js/ , though both methods would work totally fine. ***
 
-*Sidenote: I could've also used chalk and boxen type tools to enhance the look. But such tools might distort the view on some shells or some screens so I abstained from them.*
+* Sidenote: I could've also used chalk and boxen type tools to enhance the look. But such tools might distort the view on some shells or some screens so I abstained from them.*
 
 # References used: 
 
