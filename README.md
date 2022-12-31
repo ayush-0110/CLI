@@ -1,7 +1,7 @@
 # CLI
 A Bash type shell built using Nodejs. I gave some custom names to commands which can be viewed in the shell.js file. Run shell or run node shell.js .(Why did I just wrote "run shell",you wonder? Because I used scripts. Keep reading to know more)
 
-Usage Instructions:
+#Usage Instructions:
 
 Run npm install to install all the dependencies and scripts. I've enabled scripts so these shell commands can be run from anywhere in the file system.
 Scripts: These are used to automate repetitive tasks. A script might include a set of commands, or a single command, or it might contain the hallmarks of imperative programming like loops, functions, conditional constructs, etc.
