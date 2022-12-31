@@ -6,15 +6,15 @@ A Bash type shell built using Nodejs. I gave some custom names to commands which
 Run ```npm install``` to install all the dependencies and scripts. I've enabled scripts so these shell commands can be run from anywhere in the file system.
 Scripts: These are used to automate repetitive tasks. A script might include a set of commands, or a single command, or it might contain the hallmarks of imperative programming like loops, functions, conditional constructs, etc.
 
-**_Entry Point: ./bin/shell.js
+**_ Entry Point: ./bin/shell.js _**
 
-Run shell.js to get the instructions about using the shell
+Run ```shell.js``` to get the instructions about using the shell
 
 Enter the name of the command you wish to execute. For eg: ls1.
 
-_Note: to change current working directory: also enter the location of new directory alongwith the command. for eg: pres ../
+_ Note: to change current working directory: also enter the location of new directory alongwith the command. for eg: pres ../ _
 
-**_An important Note: Since I've used scripts so one can directly enter the commands name like ls1 rather than node ls1.js/ , though both methods would work totally fine.
+**_ An important Note: Since I've used scripts so one can directly enter the commands name like ls1 rather than node ls1.js/ , though both methods would work totally fine.
 
 _Sidenote: I could've also used chalk and boxen type tools to enhance the look. But such tools might distort the view on some shells or some screens so I abstained from them.
 
